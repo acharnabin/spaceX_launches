@@ -1,0 +1,47 @@
+
+.home_statedata{
+    height:70vh;
+
+}
+.home_countryChart{
+    padding: 10px 20px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.home_card{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.home-title{
+    color:#ff5722;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+.row-text{
+    font-weight:600;
+    
+}
+.table{
+    height:80vh;
+}
+/* width */
+.table::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .table::-webkit-scrollbar-track {
+   background-color: #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  /* Handle */
+  .table::-webkit-scrollbar-thumb {
+    background: #ff7043;
+    border-radius: 10px;
+  }

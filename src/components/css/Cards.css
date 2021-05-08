@@ -1,0 +1,15 @@
+.card-confirm{
+    border-bottom:3px solid  #03a9f4;
+}
+
+.card-active{
+    border-bottom:3px solid  #f44336;
+}
+
+.card-recovered{
+    border-bottom:3px solid #4caf50;
+}
+
+.card-death{
+    border-bottom:3px solid  #607d8b;
+}
