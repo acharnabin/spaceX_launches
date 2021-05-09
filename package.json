@@ -1,5 +1,6 @@
 {
   "name": "siteone",
+  "homepage": "https://acharnabin.github.io/covid_india_data",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +14,7 @@
     "axios": "^0.21.1",
     "bootstrap": "^4.6.0",
     "chart.js": "^3.2.0",
+    "gh-pages": "^3.1.0",
     "react": "^17.0.2",
     "react-chartjs-2": "^3.0.3",
     "react-countup": "^4.3.3",
@@ -23,6 +25,8 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
