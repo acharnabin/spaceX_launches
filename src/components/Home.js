@@ -36,7 +36,7 @@ function Home() {
 
     return (
         <div className="Home">
-            <h4 className="home-title text-center">Covid-19 overview</h4>
+            <h4 className="home-title text-center">Covid-19 India overview</h4>
             {
                 statedata.length===0?(
                     <div className="container">
