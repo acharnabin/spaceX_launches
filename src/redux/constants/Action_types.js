@@ -1,0 +1,8 @@
+export const Action_types={
+    SET_INITIAL:"SET_INITIAL",
+    SET_YEAR:"SET_YEAR",
+    SET_LANDING:"SET_LANDING",
+    SET_LAUNCH:"SET_LAUNCH",
+    SET_LOADING:"SET_LOADING"
+    
+};

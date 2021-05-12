@@ -1,0 +1,32 @@
+.rocket_card{
+    padding:5px 10px;
+    margin: 5px;
+    max-width:220px;
+    height:370px;
+    border-bottom: 4px solid white;
+    
+}
+.rocket_card:hover{
+    border-bottom: 4px solid #ff5722;
+    cursor: pointer;
+}
+.rocket_card_fonts{
+    margin-top: 1px;
+    font-size: 15px;
+}
+.rocket_card_title{
+    font-weight: bold;
+}
+.rocket_card_image{
+    padding:5px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rocket_card_image>img{
+    height:200px;
+    width: 200px;
+    object-fit: contain;
+
+}

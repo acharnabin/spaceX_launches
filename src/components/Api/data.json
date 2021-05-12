@@ -1,0 +1,42 @@
+
+[
+    {
+        "flight_number": 1,
+        "mission_name": "FalconSat",
+        "mission_id": [],
+        "launch_year": "2006",
+        "rocket": {
+            "first_stage": {
+                "cores": [
+                    {
+                        "land_success": null,
+                    }
+                ]
+            }
+        },
+        "launch_success": false,
+        "links": {
+            "mission_patch": "https://images2.imgbox.com/40/e3/GypSkayF_o.png",
+            "mission_patch_small": "https://images2.imgbox.com/3c/0e/T8iJcSN3_o.png",
+        }
+
+    }
+]
+
+const first_time_page_load=()=>{
+    axios.get(first_time_page_load_url)
+        .then((result)=>{
+            let d=result.data[0];
+            console.log(
+                d.flight_number,
+                d.mission_name,
+                d.mission_id,
+                d.launch_year,
+                d.rocket.first_stage.cores.land_success,
+                d.launch_success,
+                d.links.mission_patch_small
+            )
+        })
+        .catch((err)=>console.error(err.message))
+}
+

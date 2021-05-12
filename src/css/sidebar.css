@@ -1,0 +1,23 @@
+.sidebar{
+    padding: 10px 20px;
+}
+
+.sidebar_launch_year_items{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sidebar_chip{
+    margin:2px;
+}
+.suceesful_launch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.suceesful_landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
